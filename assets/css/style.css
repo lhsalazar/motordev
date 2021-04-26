@@ -1053,7 +1053,7 @@ section {
   font-size: 20px;
   color: #0563bb;
   float: left;
-  width: 4px;
+  width: 44px;
   height: 44px;
   background: #eef7ff;
   display: flex;
@@ -1064,6 +1064,14 @@ section {
 }
 
 .contact .info h4 {
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #45505b;
+}
+
+.contact .info h3 {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
