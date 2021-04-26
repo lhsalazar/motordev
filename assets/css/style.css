@@ -396,6 +396,8 @@ section {
   margin-left: auto;
   margin-right: auto;
   border-radius: 10px;
+  align-items: center;
+
 }
 
 .about .blue h3 {
@@ -427,6 +429,11 @@ section {
   line-height: 0;
 }
 
+.about .col-lg-4 {
+  display: flex;
+  align-items: center;
+}
+
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
@@ -448,13 +455,9 @@ section {
 
 .about .content ul li {
   margin-bottom: 20px;
-  display: flex;
-  align-items: center;
 }
 
-.about .content ul strong {
-  margin-right: 10px;
-}
+
 
 .about .content ul i {
   font-size: 16px;
