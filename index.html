@@ -47,12 +47,12 @@
 
     <nav id="navbar" class="navbar nav-menu">
       <ul>
-        <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Inicio</span></a></li>
-        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Introducción</span></a></li>
+        <li><a href="#hero" class="nav-link scrollto active"><i class="fas fa-home"></i> <span>Inicio</span></a></li>
+        <li><a href="#about" class="nav-link scrollto"><i class="fas fa-flag"></i> <span>Introducción</span></a></li>
         <li><a href="#motor-task" class="nav-link scrollto"><i class="fas fa-running"></i> <span>Tarea Motriz</span></a></li>
         <li><a href="#motor-fingerprint" class="nav-link scrollto"><i class="fas fa-fingerprint"></i> <span>Huella Motriz</span></a></li>
         <li><a href="#influence" class="nav-link scrollto"><i class="fas fa-hiking"></i> <span>Mecanismos y factores de influencia</span></a></li>
-        <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+        <li><a href="#quiz" class="nav-link scrollto"><i class="fas fa-spell-check"></i> <span>Cuestionario</span></a></li>
         <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
         <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>
         <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
@@ -67,7 +67,7 @@
       <h1>Desarrollo Motor</h1>
       <p><span class="typed" data-typed-items="Perspectivas, Procesos, Funcionamiento"></span>del aprendizaje motor humano</p>
       <br>
-      <a href="#about"><button>¡Vamos a la lección!</button></a>
+      <a href="#about" class="nav-link scrollto"><button>¡Vamos a la lección!</button></a>
     </div>
   </section><!-- End Home -->
 
@@ -88,7 +88,7 @@
         <div class="row">
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-            <a href="#motor-task">
+            <a href="#motor-task" class="nav-link scrollto">
               <div class="icon-box iconbox-blue">
                 <div class="icon">
                   <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
@@ -105,7 +105,7 @@
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
-            <a href="#motor-fingerprint">
+            <a href="#motor-fingerprint" class="nav-link scrollto">
               <div class="icon-box iconbox-orange">
                 <div class="icon">
                   <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
@@ -120,7 +120,7 @@
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
-            <a href="#influence">
+            <a href="#influence" class="nav-link scrollto">
               <div class="icon-box iconbox-pink">
                 <div class="icon">
                   <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
@@ -667,6 +667,88 @@
 
       </div>
     </section><!-- End Influence Section -->
+
+    <!-- ======= Quiz Section ======= -->
+    <section id="quiz" class="resume">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Comprueba tus conocimientos</h2>
+        <p>
+          Hemos preparado un pequeño cuestionario para que compruebes tus conocimientos acerca del módulo
+        </p>
+        <br>
+        <a href="https://quizizz.com/join?gc=59349514" target="_blank"><button>¡Vamos al cuestionario!</button></a>
+        </div>
+
+      </div>
+    </section><!-- End Quiz Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+        </div>
+
+        <div class="row mt-1">
+
+          <div class="col-lg-4">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>A108 Adam Street, New York, NY 535022</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>info@example.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p>+1 5589 55488 55s</p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-8 mt-5 mt-lg-0">
+
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
 
   </main><!-- End #main -->
 
