@@ -436,15 +436,15 @@ section {
   top: -25px;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 24px;
+  font-size: 40px;
   background: #0563bb;
   color: #fff;
   border-radius: 50px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 48px;
-  height: 48px;
+  width: 75px;
+  height: 75px;
 }
 
 .facts .count-box span {
